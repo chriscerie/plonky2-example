@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.75"
 log = "0.4.20"
-plonky2 = { git = "https://github.com/chriscerie/plonky2.git", version = "0.1.4" }
-plonky2_field = { git = "https://github.com/chriscerie/plonky2.git", version = "0.1.1" }
+plonky2 = "0.1.4"
+plonky2_field = "0.1.1"
