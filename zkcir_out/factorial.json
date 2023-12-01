@@ -1,0 +1,2681 @@
+{
+  "config": {
+    "num_wires": 135
+  },
+  "expressions": [
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "VirtualWire": {
+            "index": 0,
+            "value": {
+              "U64": 1
+            }
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 1,
+            "value": {
+              "U64": 2
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 3,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 3,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 3,
+            "value": {
+              "U64": 3
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 7,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 7,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 4,
+            "value": {
+              "U64": 4
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 11,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 11,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 5,
+            "value": {
+              "U64": 5
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 15,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 15,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 6,
+            "value": {
+              "U64": 6
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 19,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 19,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 7,
+            "value": {
+              "U64": 7
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 23,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 23,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 8,
+            "value": {
+              "U64": 8
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 27,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 27,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 9,
+            "value": {
+              "U64": 9
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 31,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 31,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 10,
+            "value": {
+              "U64": 10
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 35,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 35,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 11,
+            "value": {
+              "U64": 11
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 39,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 39,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 12,
+            "value": {
+              "U64": 12
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 43,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 43,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 13,
+            "value": {
+              "U64": 13
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 47,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 47,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 14,
+            "value": {
+              "U64": 14
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 51,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 51,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 15,
+            "value": {
+              "U64": 15
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 55,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 55,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 16,
+            "value": {
+              "U64": 16
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 59,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 59,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 17,
+            "value": {
+              "U64": 17
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 63,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 63,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 18,
+            "value": {
+              "U64": 18
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 67,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 67,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 19,
+            "value": {
+              "U64": 19
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 71,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 71,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 20,
+            "value": {
+              "U64": 20
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 75,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 75,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 21,
+            "value": {
+              "U64": 21
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 0,
+            "column": 79,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 0,
+            "column": 79,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 22,
+            "value": {
+              "U64": 22
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 3,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 3,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 23,
+            "value": {
+              "U64": 23
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 7,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 7,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 24,
+            "value": {
+              "U64": 24
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 11,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 11,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 25,
+            "value": {
+              "U64": 25
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 15,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 15,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 26,
+            "value": {
+              "U64": 26
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 19,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 19,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 27,
+            "value": {
+              "U64": 27
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 23,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 23,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 28,
+            "value": {
+              "U64": 28
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 27,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 27,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 29,
+            "value": {
+              "U64": 29
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 31,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 31,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 30,
+            "value": {
+              "U64": 30
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 35,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 35,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 31,
+            "value": {
+              "U64": 31
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 39,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 39,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 32,
+            "value": {
+              "U64": 32
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 43,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 43,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 33,
+            "value": {
+              "U64": 33
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 47,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 47,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 34,
+            "value": {
+              "U64": 34
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 51,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 51,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 35,
+            "value": {
+              "U64": 35
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 55,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 55,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 36,
+            "value": {
+              "U64": 36
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 59,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 59,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 37,
+            "value": {
+              "U64": 37
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 63,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 63,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 38,
+            "value": {
+              "U64": 38
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 67,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 67,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 39,
+            "value": {
+              "U64": 39
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 71,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 71,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 40,
+            "value": {
+              "U64": 40
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 75,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 75,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 41,
+            "value": {
+              "U64": 41
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 1,
+            "column": 79,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 1,
+            "column": 79,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 42,
+            "value": {
+              "U64": 42
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 3,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 3,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 43,
+            "value": {
+              "U64": 43
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 7,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 7,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 44,
+            "value": {
+              "U64": 44
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 11,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 11,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 45,
+            "value": {
+              "U64": 45
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 15,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 15,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 46,
+            "value": {
+              "U64": 46
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 19,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 19,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 47,
+            "value": {
+              "U64": 47
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 23,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 23,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 48,
+            "value": {
+              "U64": 48
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 27,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 27,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 49,
+            "value": {
+              "U64": 49
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 31,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 31,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 50,
+            "value": {
+              "U64": 50
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 35,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 35,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 51,
+            "value": {
+              "U64": 51
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 39,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 39,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 52,
+            "value": {
+              "U64": 52
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 43,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 43,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 53,
+            "value": {
+              "U64": 53
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 47,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 47,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 54,
+            "value": {
+              "U64": 54
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 51,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 51,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 55,
+            "value": {
+              "U64": 55
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 55,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 55,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 56,
+            "value": {
+              "U64": 56
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 59,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 59,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 57,
+            "value": {
+              "U64": 57
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 63,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 63,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 58,
+            "value": {
+              "U64": 58
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 67,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 67,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 59,
+            "value": {
+              "U64": 59
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 71,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 71,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 60,
+            "value": {
+              "U64": 60
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 75,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 75,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 61,
+            "value": {
+              "U64": 61
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 2,
+            "column": 79,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 2,
+            "column": 79,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 62,
+            "value": {
+              "U64": 62
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 3,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 3,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 63,
+            "value": {
+              "U64": 63
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 7,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 7,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 64,
+            "value": {
+              "U64": 64
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 11,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 11,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 65,
+            "value": {
+              "U64": 65
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 15,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 15,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 66,
+            "value": {
+              "U64": 66
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 19,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 19,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 67,
+            "value": {
+              "U64": 67
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 23,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 23,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 68,
+            "value": {
+              "U64": 68
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 27,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 27,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 69,
+            "value": {
+              "U64": 69
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 31,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 31,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 70,
+            "value": {
+              "U64": 70
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 35,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 35,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 71,
+            "value": {
+              "U64": 71
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 39,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 39,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 72,
+            "value": {
+              "U64": 72
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 43,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 43,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 73,
+            "value": {
+              "U64": 73
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 47,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 47,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 74,
+            "value": {
+              "U64": 74
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 51,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 51,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 75,
+            "value": {
+              "U64": 75
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 55,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 55,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 76,
+            "value": {
+              "U64": 76
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 59,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 59,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 77,
+            "value": {
+              "U64": 77
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 63,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 63,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 78,
+            "value": {
+              "U64": 78
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 67,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 67,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 79,
+            "value": {
+              "U64": 79
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 71,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 71,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 80,
+            "value": {
+              "U64": 80
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 75,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 75,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 81,
+            "value": {
+              "U64": 81
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 3,
+            "column": 79,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 3,
+            "column": 79,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 82,
+            "value": {
+              "U64": 82
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 3,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 3,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 83,
+            "value": {
+              "U64": 83
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 7,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 7,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 84,
+            "value": {
+              "U64": 84
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 11,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 11,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 85,
+            "value": {
+              "U64": 85
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 15,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 15,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 86,
+            "value": {
+              "U64": 86
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 19,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 19,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 87,
+            "value": {
+              "U64": 87
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 23,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 23,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 88,
+            "value": {
+              "U64": 88
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 27,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 27,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 89,
+            "value": {
+              "U64": 89
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 31,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 31,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 90,
+            "value": {
+              "U64": 90
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 35,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 35,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 91,
+            "value": {
+              "U64": 91
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 39,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 39,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 92,
+            "value": {
+              "U64": 92
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 43,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 43,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 93,
+            "value": {
+              "U64": 93
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 47,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 47,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 94,
+            "value": {
+              "U64": 94
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 51,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 51,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 95,
+            "value": {
+              "U64": 95
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 55,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 55,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 96,
+            "value": {
+              "U64": 96
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 59,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 59,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 97,
+            "value": {
+              "U64": 97
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 63,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 63,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 98,
+            "value": {
+              "U64": 98
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 67,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 67,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 99,
+            "value": {
+              "U64": 99
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 71,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "BinaryOperator": {
+        "lhs": {
+          "Wire": {
+            "row": 4,
+            "column": 71,
+            "value": null
+          }
+        },
+        "binop": "Multiply",
+        "rhs": {
+          "VirtualWire": {
+            "index": 100,
+            "value": {
+              "U64": 100
+            }
+          }
+        },
+        "result": {
+          "Wire": {
+            "row": 4,
+            "column": 75,
+            "value": null
+          }
+        }
+      }
+    }
+  ]
+}

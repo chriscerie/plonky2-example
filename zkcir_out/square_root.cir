@@ -1,0 +1,1 @@
+(virtual_wire!(index: 0) * virtual_wire!(index: 0)) -> wire!(row: 0, column: 3, value: (random!() -> 2175182291543165123u64))

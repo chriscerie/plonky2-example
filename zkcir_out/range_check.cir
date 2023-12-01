@@ -1,0 +1,1 @@
+verify!(virtual_wire!(index: 0, value: 42u64) < (2u64 ^ 6u64))

@@ -1,0 +1,39 @@
+{
+  "config": {
+    "num_wires": 135
+  },
+  "expressions": [
+    {
+      "Verify": {
+        "BinaryOperator": {
+          "lhs": {
+            "VirtualWire": {
+              "index": 0,
+              "value": {
+                "U64": 42
+              }
+            }
+          },
+          "binop": "LessThan",
+          "rhs": {
+            "BinaryOperator": {
+              "lhs": {
+                "Value": {
+                  "U64": 2
+                }
+              },
+              "binop": "Exponent",
+              "rhs": {
+                "Value": {
+                  "U64": 6
+                }
+              },
+              "result": null
+            }
+          },
+          "result": null
+        }
+      }
+    }
+  ]
+}
