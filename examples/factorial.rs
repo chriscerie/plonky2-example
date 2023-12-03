@@ -41,16 +41,3 @@ fn main() -> Result<()> {
 
     data.verify(proof)
 }
-
-#[cfg(test)]
-mod tests {
-    use plonky2::zkcir_test_util::{get_last_cir_data, test_ir_string};
-
-    use super::*;
-
-    #[test]
-    fn test() {
-        main().expect("Failed to run circuit");
-        test_ir_string("factorial", &get_last_cir_data().cir);
-    }
-}

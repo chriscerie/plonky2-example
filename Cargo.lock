@@ -321,6 +321,7 @@ dependencies = [
  "log",
  "plonky2",
  "plonky2_field",
+ "serde_json",
 ]
 
 [[package]]

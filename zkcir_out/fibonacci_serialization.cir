@@ -1,0 +1,197 @@
+(virtual_wire!(index: 0, value: 0u64) + virtual_wire!(index: 1, value: 1u64)) -> wire!(row: 0, column: 3)
+
+(virtual_wire!(index: 1, value: 1u64) + wire!(row: 0, column: 3)) -> wire!(row: 0, column: 7)
+
+(wire!(row: 0, column: 3) + wire!(row: 0, column: 7)) -> wire!(row: 0, column: 11)
+
+(wire!(row: 0, column: 7) + wire!(row: 0, column: 11)) -> wire!(row: 0, column: 15)
+
+(wire!(row: 0, column: 11) + wire!(row: 0, column: 15)) -> wire!(row: 0, column: 19)
+
+(wire!(row: 0, column: 15) + wire!(row: 0, column: 19)) -> wire!(row: 0, column: 23)
+
+(wire!(row: 0, column: 19) + wire!(row: 0, column: 23)) -> wire!(row: 0, column: 27)
+
+(wire!(row: 0, column: 23) + wire!(row: 0, column: 27)) -> wire!(row: 0, column: 31)
+
+(wire!(row: 0, column: 27) + wire!(row: 0, column: 31)) -> wire!(row: 0, column: 35)
+
+(wire!(row: 0, column: 31) + wire!(row: 0, column: 35)) -> wire!(row: 0, column: 39)
+
+(wire!(row: 0, column: 35) + wire!(row: 0, column: 39)) -> wire!(row: 0, column: 43)
+
+(wire!(row: 0, column: 39) + wire!(row: 0, column: 43)) -> wire!(row: 0, column: 47)
+
+(wire!(row: 0, column: 43) + wire!(row: 0, column: 47)) -> wire!(row: 0, column: 51)
+
+(wire!(row: 0, column: 47) + wire!(row: 0, column: 51)) -> wire!(row: 0, column: 55)
+
+(wire!(row: 0, column: 51) + wire!(row: 0, column: 55)) -> wire!(row: 0, column: 59)
+
+(wire!(row: 0, column: 55) + wire!(row: 0, column: 59)) -> wire!(row: 0, column: 63)
+
+(wire!(row: 0, column: 59) + wire!(row: 0, column: 63)) -> wire!(row: 0, column: 67)
+
+(wire!(row: 0, column: 63) + wire!(row: 0, column: 67)) -> wire!(row: 0, column: 71)
+
+(wire!(row: 0, column: 67) + wire!(row: 0, column: 71)) -> wire!(row: 0, column: 75)
+
+(wire!(row: 0, column: 71) + wire!(row: 0, column: 75)) -> wire!(row: 0, column: 79)
+
+(wire!(row: 0, column: 75) + wire!(row: 0, column: 79)) -> wire!(row: 1, column: 3)
+
+(wire!(row: 0, column: 79) + wire!(row: 1, column: 3)) -> wire!(row: 1, column: 7)
+
+(wire!(row: 1, column: 3) + wire!(row: 1, column: 7)) -> wire!(row: 1, column: 11)
+
+(wire!(row: 1, column: 7) + wire!(row: 1, column: 11)) -> wire!(row: 1, column: 15)
+
+(wire!(row: 1, column: 11) + wire!(row: 1, column: 15)) -> wire!(row: 1, column: 19)
+
+(wire!(row: 1, column: 15) + wire!(row: 1, column: 19)) -> wire!(row: 1, column: 23)
+
+(wire!(row: 1, column: 19) + wire!(row: 1, column: 23)) -> wire!(row: 1, column: 27)
+
+(wire!(row: 1, column: 23) + wire!(row: 1, column: 27)) -> wire!(row: 1, column: 31)
+
+(wire!(row: 1, column: 27) + wire!(row: 1, column: 31)) -> wire!(row: 1, column: 35)
+
+(wire!(row: 1, column: 31) + wire!(row: 1, column: 35)) -> wire!(row: 1, column: 39)
+
+(wire!(row: 1, column: 35) + wire!(row: 1, column: 39)) -> wire!(row: 1, column: 43)
+
+(wire!(row: 1, column: 39) + wire!(row: 1, column: 43)) -> wire!(row: 1, column: 47)
+
+(wire!(row: 1, column: 43) + wire!(row: 1, column: 47)) -> wire!(row: 1, column: 51)
+
+(wire!(row: 1, column: 47) + wire!(row: 1, column: 51)) -> wire!(row: 1, column: 55)
+
+(wire!(row: 1, column: 51) + wire!(row: 1, column: 55)) -> wire!(row: 1, column: 59)
+
+(wire!(row: 1, column: 55) + wire!(row: 1, column: 59)) -> wire!(row: 1, column: 63)
+
+(wire!(row: 1, column: 59) + wire!(row: 1, column: 63)) -> wire!(row: 1, column: 67)
+
+(wire!(row: 1, column: 63) + wire!(row: 1, column: 67)) -> wire!(row: 1, column: 71)
+
+(wire!(row: 1, column: 67) + wire!(row: 1, column: 71)) -> wire!(row: 1, column: 75)
+
+(wire!(row: 1, column: 71) + wire!(row: 1, column: 75)) -> wire!(row: 1, column: 79)
+
+(wire!(row: 1, column: 75) + wire!(row: 1, column: 79)) -> wire!(row: 2, column: 3)
+
+(wire!(row: 1, column: 79) + wire!(row: 2, column: 3)) -> wire!(row: 2, column: 7)
+
+(wire!(row: 2, column: 3) + wire!(row: 2, column: 7)) -> wire!(row: 2, column: 11)
+
+(wire!(row: 2, column: 7) + wire!(row: 2, column: 11)) -> wire!(row: 2, column: 15)
+
+(wire!(row: 2, column: 11) + wire!(row: 2, column: 15)) -> wire!(row: 2, column: 19)
+
+(wire!(row: 2, column: 15) + wire!(row: 2, column: 19)) -> wire!(row: 2, column: 23)
+
+(wire!(row: 2, column: 19) + wire!(row: 2, column: 23)) -> wire!(row: 2, column: 27)
+
+(wire!(row: 2, column: 23) + wire!(row: 2, column: 27)) -> wire!(row: 2, column: 31)
+
+(wire!(row: 2, column: 27) + wire!(row: 2, column: 31)) -> wire!(row: 2, column: 35)
+
+(wire!(row: 2, column: 31) + wire!(row: 2, column: 35)) -> wire!(row: 2, column: 39)
+
+(wire!(row: 2, column: 35) + wire!(row: 2, column: 39)) -> wire!(row: 2, column: 43)
+
+(wire!(row: 2, column: 39) + wire!(row: 2, column: 43)) -> wire!(row: 2, column: 47)
+
+(wire!(row: 2, column: 43) + wire!(row: 2, column: 47)) -> wire!(row: 2, column: 51)
+
+(wire!(row: 2, column: 47) + wire!(row: 2, column: 51)) -> wire!(row: 2, column: 55)
+
+(wire!(row: 2, column: 51) + wire!(row: 2, column: 55)) -> wire!(row: 2, column: 59)
+
+(wire!(row: 2, column: 55) + wire!(row: 2, column: 59)) -> wire!(row: 2, column: 63)
+
+(wire!(row: 2, column: 59) + wire!(row: 2, column: 63)) -> wire!(row: 2, column: 67)
+
+(wire!(row: 2, column: 63) + wire!(row: 2, column: 67)) -> wire!(row: 2, column: 71)
+
+(wire!(row: 2, column: 67) + wire!(row: 2, column: 71)) -> wire!(row: 2, column: 75)
+
+(wire!(row: 2, column: 71) + wire!(row: 2, column: 75)) -> wire!(row: 2, column: 79)
+
+(wire!(row: 2, column: 75) + wire!(row: 2, column: 79)) -> wire!(row: 3, column: 3)
+
+(wire!(row: 2, column: 79) + wire!(row: 3, column: 3)) -> wire!(row: 3, column: 7)
+
+(wire!(row: 3, column: 3) + wire!(row: 3, column: 7)) -> wire!(row: 3, column: 11)
+
+(wire!(row: 3, column: 7) + wire!(row: 3, column: 11)) -> wire!(row: 3, column: 15)
+
+(wire!(row: 3, column: 11) + wire!(row: 3, column: 15)) -> wire!(row: 3, column: 19)
+
+(wire!(row: 3, column: 15) + wire!(row: 3, column: 19)) -> wire!(row: 3, column: 23)
+
+(wire!(row: 3, column: 19) + wire!(row: 3, column: 23)) -> wire!(row: 3, column: 27)
+
+(wire!(row: 3, column: 23) + wire!(row: 3, column: 27)) -> wire!(row: 3, column: 31)
+
+(wire!(row: 3, column: 27) + wire!(row: 3, column: 31)) -> wire!(row: 3, column: 35)
+
+(wire!(row: 3, column: 31) + wire!(row: 3, column: 35)) -> wire!(row: 3, column: 39)
+
+(wire!(row: 3, column: 35) + wire!(row: 3, column: 39)) -> wire!(row: 3, column: 43)
+
+(wire!(row: 3, column: 39) + wire!(row: 3, column: 43)) -> wire!(row: 3, column: 47)
+
+(wire!(row: 3, column: 43) + wire!(row: 3, column: 47)) -> wire!(row: 3, column: 51)
+
+(wire!(row: 3, column: 47) + wire!(row: 3, column: 51)) -> wire!(row: 3, column: 55)
+
+(wire!(row: 3, column: 51) + wire!(row: 3, column: 55)) -> wire!(row: 3, column: 59)
+
+(wire!(row: 3, column: 55) + wire!(row: 3, column: 59)) -> wire!(row: 3, column: 63)
+
+(wire!(row: 3, column: 59) + wire!(row: 3, column: 63)) -> wire!(row: 3, column: 67)
+
+(wire!(row: 3, column: 63) + wire!(row: 3, column: 67)) -> wire!(row: 3, column: 71)
+
+(wire!(row: 3, column: 67) + wire!(row: 3, column: 71)) -> wire!(row: 3, column: 75)
+
+(wire!(row: 3, column: 71) + wire!(row: 3, column: 75)) -> wire!(row: 3, column: 79)
+
+(wire!(row: 3, column: 75) + wire!(row: 3, column: 79)) -> wire!(row: 4, column: 3)
+
+(wire!(row: 3, column: 79) + wire!(row: 4, column: 3)) -> wire!(row: 4, column: 7)
+
+(wire!(row: 4, column: 3) + wire!(row: 4, column: 7)) -> wire!(row: 4, column: 11)
+
+(wire!(row: 4, column: 7) + wire!(row: 4, column: 11)) -> wire!(row: 4, column: 15)
+
+(wire!(row: 4, column: 11) + wire!(row: 4, column: 15)) -> wire!(row: 4, column: 19)
+
+(wire!(row: 4, column: 15) + wire!(row: 4, column: 19)) -> wire!(row: 4, column: 23)
+
+(wire!(row: 4, column: 19) + wire!(row: 4, column: 23)) -> wire!(row: 4, column: 27)
+
+(wire!(row: 4, column: 23) + wire!(row: 4, column: 27)) -> wire!(row: 4, column: 31)
+
+(wire!(row: 4, column: 27) + wire!(row: 4, column: 31)) -> wire!(row: 4, column: 35)
+
+(wire!(row: 4, column: 31) + wire!(row: 4, column: 35)) -> wire!(row: 4, column: 39)
+
+(wire!(row: 4, column: 35) + wire!(row: 4, column: 39)) -> wire!(row: 4, column: 43)
+
+(wire!(row: 4, column: 39) + wire!(row: 4, column: 43)) -> wire!(row: 4, column: 47)
+
+(wire!(row: 4, column: 43) + wire!(row: 4, column: 47)) -> wire!(row: 4, column: 51)
+
+(wire!(row: 4, column: 47) + wire!(row: 4, column: 51)) -> wire!(row: 4, column: 55)
+
+(wire!(row: 4, column: 51) + wire!(row: 4, column: 55)) -> wire!(row: 4, column: 59)
+
+(wire!(row: 4, column: 55) + wire!(row: 4, column: 59)) -> wire!(row: 4, column: 63)
+
+(wire!(row: 4, column: 59) + wire!(row: 4, column: 63)) -> wire!(row: 4, column: 67)
+
+(wire!(row: 4, column: 63) + wire!(row: 4, column: 67)) -> wire!(row: 4, column: 71)
+
+(wire!(row: 4, column: 67) + wire!(row: 4, column: 71)) -> wire!(row: 4, column: 75)
