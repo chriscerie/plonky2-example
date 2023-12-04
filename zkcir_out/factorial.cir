@@ -1,197 +1,201 @@
-(virtual_wire!(index: 0, value: 1u64) * virtual_wire!(index: 1, value: 2u64)) -> wire!(row: 0, column: 3)
+let public_input_1 = virtual_wire!(index: 0, value: 1u64);
 
-(wire!(row: 0, column: 3) * virtual_wire!(index: 3, value: 3u64)) -> wire!(row: 0, column: 7)
+let public_input_2 = wire!(row: 4, column: 75);
 
-(wire!(row: 0, column: 7) * virtual_wire!(index: 4, value: 4u64)) -> wire!(row: 0, column: 11)
+let wire!(row: 0, column: 3) = public_input_1 * virtual_wire!(index: 1, value: 2u64);
 
-(wire!(row: 0, column: 11) * virtual_wire!(index: 5, value: 5u64)) -> wire!(row: 0, column: 15)
+let wire!(row: 0, column: 7) = wire!(row: 0, column: 3) * virtual_wire!(index: 3, value: 3u64);
 
-(wire!(row: 0, column: 15) * virtual_wire!(index: 6, value: 6u64)) -> wire!(row: 0, column: 19)
+let wire!(row: 0, column: 11) = wire!(row: 0, column: 7) * virtual_wire!(index: 4, value: 4u64);
 
-(wire!(row: 0, column: 19) * virtual_wire!(index: 7, value: 7u64)) -> wire!(row: 0, column: 23)
+let wire!(row: 0, column: 15) = wire!(row: 0, column: 11) * virtual_wire!(index: 5, value: 5u64);
 
-(wire!(row: 0, column: 23) * virtual_wire!(index: 8, value: 8u64)) -> wire!(row: 0, column: 27)
+let wire!(row: 0, column: 19) = wire!(row: 0, column: 15) * virtual_wire!(index: 6, value: 6u64);
 
-(wire!(row: 0, column: 27) * virtual_wire!(index: 9, value: 9u64)) -> wire!(row: 0, column: 31)
+let wire!(row: 0, column: 23) = wire!(row: 0, column: 19) * virtual_wire!(index: 7, value: 7u64);
 
-(wire!(row: 0, column: 31) * virtual_wire!(index: 10, value: 10u64)) -> wire!(row: 0, column: 35)
+let wire!(row: 0, column: 27) = wire!(row: 0, column: 23) * virtual_wire!(index: 8, value: 8u64);
 
-(wire!(row: 0, column: 35) * virtual_wire!(index: 11, value: 11u64)) -> wire!(row: 0, column: 39)
+let wire!(row: 0, column: 31) = wire!(row: 0, column: 27) * virtual_wire!(index: 9, value: 9u64);
 
-(wire!(row: 0, column: 39) * virtual_wire!(index: 12, value: 12u64)) -> wire!(row: 0, column: 43)
+let wire!(row: 0, column: 35) = wire!(row: 0, column: 31) * virtual_wire!(index: 10, value: 10u64);
 
-(wire!(row: 0, column: 43) * virtual_wire!(index: 13, value: 13u64)) -> wire!(row: 0, column: 47)
+let wire!(row: 0, column: 39) = wire!(row: 0, column: 35) * virtual_wire!(index: 11, value: 11u64);
 
-(wire!(row: 0, column: 47) * virtual_wire!(index: 14, value: 14u64)) -> wire!(row: 0, column: 51)
+let wire!(row: 0, column: 43) = wire!(row: 0, column: 39) * virtual_wire!(index: 12, value: 12u64);
 
-(wire!(row: 0, column: 51) * virtual_wire!(index: 15, value: 15u64)) -> wire!(row: 0, column: 55)
+let wire!(row: 0, column: 47) = wire!(row: 0, column: 43) * virtual_wire!(index: 13, value: 13u64);
 
-(wire!(row: 0, column: 55) * virtual_wire!(index: 16, value: 16u64)) -> wire!(row: 0, column: 59)
+let wire!(row: 0, column: 51) = wire!(row: 0, column: 47) * virtual_wire!(index: 14, value: 14u64);
 
-(wire!(row: 0, column: 59) * virtual_wire!(index: 17, value: 17u64)) -> wire!(row: 0, column: 63)
+let wire!(row: 0, column: 55) = wire!(row: 0, column: 51) * virtual_wire!(index: 15, value: 15u64);
 
-(wire!(row: 0, column: 63) * virtual_wire!(index: 18, value: 18u64)) -> wire!(row: 0, column: 67)
+let wire!(row: 0, column: 59) = wire!(row: 0, column: 55) * virtual_wire!(index: 16, value: 16u64);
 
-(wire!(row: 0, column: 67) * virtual_wire!(index: 19, value: 19u64)) -> wire!(row: 0, column: 71)
+let wire!(row: 0, column: 63) = wire!(row: 0, column: 59) * virtual_wire!(index: 17, value: 17u64);
 
-(wire!(row: 0, column: 71) * virtual_wire!(index: 20, value: 20u64)) -> wire!(row: 0, column: 75)
+let wire!(row: 0, column: 67) = wire!(row: 0, column: 63) * virtual_wire!(index: 18, value: 18u64);
 
-(wire!(row: 0, column: 75) * virtual_wire!(index: 21, value: 21u64)) -> wire!(row: 0, column: 79)
+let wire!(row: 0, column: 71) = wire!(row: 0, column: 67) * virtual_wire!(index: 19, value: 19u64);
 
-(wire!(row: 0, column: 79) * virtual_wire!(index: 22, value: 22u64)) -> wire!(row: 1, column: 3)
+let wire!(row: 0, column: 75) = wire!(row: 0, column: 71) * virtual_wire!(index: 20, value: 20u64);
 
-(wire!(row: 1, column: 3) * virtual_wire!(index: 23, value: 23u64)) -> wire!(row: 1, column: 7)
+let wire!(row: 0, column: 79) = wire!(row: 0, column: 75) * virtual_wire!(index: 21, value: 21u64);
 
-(wire!(row: 1, column: 7) * virtual_wire!(index: 24, value: 24u64)) -> wire!(row: 1, column: 11)
+let wire!(row: 1, column: 3) = wire!(row: 0, column: 79) * virtual_wire!(index: 22, value: 22u64);
 
-(wire!(row: 1, column: 11) * virtual_wire!(index: 25, value: 25u64)) -> wire!(row: 1, column: 15)
+let wire!(row: 1, column: 7) = wire!(row: 1, column: 3) * virtual_wire!(index: 23, value: 23u64);
 
-(wire!(row: 1, column: 15) * virtual_wire!(index: 26, value: 26u64)) -> wire!(row: 1, column: 19)
+let wire!(row: 1, column: 11) = wire!(row: 1, column: 7) * virtual_wire!(index: 24, value: 24u64);
 
-(wire!(row: 1, column: 19) * virtual_wire!(index: 27, value: 27u64)) -> wire!(row: 1, column: 23)
+let wire!(row: 1, column: 15) = wire!(row: 1, column: 11) * virtual_wire!(index: 25, value: 25u64);
 
-(wire!(row: 1, column: 23) * virtual_wire!(index: 28, value: 28u64)) -> wire!(row: 1, column: 27)
+let wire!(row: 1, column: 19) = wire!(row: 1, column: 15) * virtual_wire!(index: 26, value: 26u64);
 
-(wire!(row: 1, column: 27) * virtual_wire!(index: 29, value: 29u64)) -> wire!(row: 1, column: 31)
+let wire!(row: 1, column: 23) = wire!(row: 1, column: 19) * virtual_wire!(index: 27, value: 27u64);
 
-(wire!(row: 1, column: 31) * virtual_wire!(index: 30, value: 30u64)) -> wire!(row: 1, column: 35)
+let wire!(row: 1, column: 27) = wire!(row: 1, column: 23) * virtual_wire!(index: 28, value: 28u64);
 
-(wire!(row: 1, column: 35) * virtual_wire!(index: 31, value: 31u64)) -> wire!(row: 1, column: 39)
+let wire!(row: 1, column: 31) = wire!(row: 1, column: 27) * virtual_wire!(index: 29, value: 29u64);
 
-(wire!(row: 1, column: 39) * virtual_wire!(index: 32, value: 32u64)) -> wire!(row: 1, column: 43)
+let wire!(row: 1, column: 35) = wire!(row: 1, column: 31) * virtual_wire!(index: 30, value: 30u64);
 
-(wire!(row: 1, column: 43) * virtual_wire!(index: 33, value: 33u64)) -> wire!(row: 1, column: 47)
+let wire!(row: 1, column: 39) = wire!(row: 1, column: 35) * virtual_wire!(index: 31, value: 31u64);
 
-(wire!(row: 1, column: 47) * virtual_wire!(index: 34, value: 34u64)) -> wire!(row: 1, column: 51)
+let wire!(row: 1, column: 43) = wire!(row: 1, column: 39) * virtual_wire!(index: 32, value: 32u64);
 
-(wire!(row: 1, column: 51) * virtual_wire!(index: 35, value: 35u64)) -> wire!(row: 1, column: 55)
+let wire!(row: 1, column: 47) = wire!(row: 1, column: 43) * virtual_wire!(index: 33, value: 33u64);
 
-(wire!(row: 1, column: 55) * virtual_wire!(index: 36, value: 36u64)) -> wire!(row: 1, column: 59)
+let wire!(row: 1, column: 51) = wire!(row: 1, column: 47) * virtual_wire!(index: 34, value: 34u64);
 
-(wire!(row: 1, column: 59) * virtual_wire!(index: 37, value: 37u64)) -> wire!(row: 1, column: 63)
+let wire!(row: 1, column: 55) = wire!(row: 1, column: 51) * virtual_wire!(index: 35, value: 35u64);
 
-(wire!(row: 1, column: 63) * virtual_wire!(index: 38, value: 38u64)) -> wire!(row: 1, column: 67)
+let wire!(row: 1, column: 59) = wire!(row: 1, column: 55) * virtual_wire!(index: 36, value: 36u64);
 
-(wire!(row: 1, column: 67) * virtual_wire!(index: 39, value: 39u64)) -> wire!(row: 1, column: 71)
+let wire!(row: 1, column: 63) = wire!(row: 1, column: 59) * virtual_wire!(index: 37, value: 37u64);
 
-(wire!(row: 1, column: 71) * virtual_wire!(index: 40, value: 40u64)) -> wire!(row: 1, column: 75)
+let wire!(row: 1, column: 67) = wire!(row: 1, column: 63) * virtual_wire!(index: 38, value: 38u64);
 
-(wire!(row: 1, column: 75) * virtual_wire!(index: 41, value: 41u64)) -> wire!(row: 1, column: 79)
+let wire!(row: 1, column: 71) = wire!(row: 1, column: 67) * virtual_wire!(index: 39, value: 39u64);
 
-(wire!(row: 1, column: 79) * virtual_wire!(index: 42, value: 42u64)) -> wire!(row: 2, column: 3)
+let wire!(row: 1, column: 75) = wire!(row: 1, column: 71) * virtual_wire!(index: 40, value: 40u64);
 
-(wire!(row: 2, column: 3) * virtual_wire!(index: 43, value: 43u64)) -> wire!(row: 2, column: 7)
+let wire!(row: 1, column: 79) = wire!(row: 1, column: 75) * virtual_wire!(index: 41, value: 41u64);
 
-(wire!(row: 2, column: 7) * virtual_wire!(index: 44, value: 44u64)) -> wire!(row: 2, column: 11)
+let wire!(row: 2, column: 3) = wire!(row: 1, column: 79) * virtual_wire!(index: 42, value: 42u64);
 
-(wire!(row: 2, column: 11) * virtual_wire!(index: 45, value: 45u64)) -> wire!(row: 2, column: 15)
+let wire!(row: 2, column: 7) = wire!(row: 2, column: 3) * virtual_wire!(index: 43, value: 43u64);
 
-(wire!(row: 2, column: 15) * virtual_wire!(index: 46, value: 46u64)) -> wire!(row: 2, column: 19)
+let wire!(row: 2, column: 11) = wire!(row: 2, column: 7) * virtual_wire!(index: 44, value: 44u64);
 
-(wire!(row: 2, column: 19) * virtual_wire!(index: 47, value: 47u64)) -> wire!(row: 2, column: 23)
+let wire!(row: 2, column: 15) = wire!(row: 2, column: 11) * virtual_wire!(index: 45, value: 45u64);
 
-(wire!(row: 2, column: 23) * virtual_wire!(index: 48, value: 48u64)) -> wire!(row: 2, column: 27)
+let wire!(row: 2, column: 19) = wire!(row: 2, column: 15) * virtual_wire!(index: 46, value: 46u64);
 
-(wire!(row: 2, column: 27) * virtual_wire!(index: 49, value: 49u64)) -> wire!(row: 2, column: 31)
+let wire!(row: 2, column: 23) = wire!(row: 2, column: 19) * virtual_wire!(index: 47, value: 47u64);
 
-(wire!(row: 2, column: 31) * virtual_wire!(index: 50, value: 50u64)) -> wire!(row: 2, column: 35)
+let wire!(row: 2, column: 27) = wire!(row: 2, column: 23) * virtual_wire!(index: 48, value: 48u64);
 
-(wire!(row: 2, column: 35) * virtual_wire!(index: 51, value: 51u64)) -> wire!(row: 2, column: 39)
+let wire!(row: 2, column: 31) = wire!(row: 2, column: 27) * virtual_wire!(index: 49, value: 49u64);
 
-(wire!(row: 2, column: 39) * virtual_wire!(index: 52, value: 52u64)) -> wire!(row: 2, column: 43)
+let wire!(row: 2, column: 35) = wire!(row: 2, column: 31) * virtual_wire!(index: 50, value: 50u64);
 
-(wire!(row: 2, column: 43) * virtual_wire!(index: 53, value: 53u64)) -> wire!(row: 2, column: 47)
+let wire!(row: 2, column: 39) = wire!(row: 2, column: 35) * virtual_wire!(index: 51, value: 51u64);
 
-(wire!(row: 2, column: 47) * virtual_wire!(index: 54, value: 54u64)) -> wire!(row: 2, column: 51)
+let wire!(row: 2, column: 43) = wire!(row: 2, column: 39) * virtual_wire!(index: 52, value: 52u64);
 
-(wire!(row: 2, column: 51) * virtual_wire!(index: 55, value: 55u64)) -> wire!(row: 2, column: 55)
+let wire!(row: 2, column: 47) = wire!(row: 2, column: 43) * virtual_wire!(index: 53, value: 53u64);
 
-(wire!(row: 2, column: 55) * virtual_wire!(index: 56, value: 56u64)) -> wire!(row: 2, column: 59)
+let wire!(row: 2, column: 51) = wire!(row: 2, column: 47) * virtual_wire!(index: 54, value: 54u64);
 
-(wire!(row: 2, column: 59) * virtual_wire!(index: 57, value: 57u64)) -> wire!(row: 2, column: 63)
+let wire!(row: 2, column: 55) = wire!(row: 2, column: 51) * virtual_wire!(index: 55, value: 55u64);
 
-(wire!(row: 2, column: 63) * virtual_wire!(index: 58, value: 58u64)) -> wire!(row: 2, column: 67)
+let wire!(row: 2, column: 59) = wire!(row: 2, column: 55) * virtual_wire!(index: 56, value: 56u64);
 
-(wire!(row: 2, column: 67) * virtual_wire!(index: 59, value: 59u64)) -> wire!(row: 2, column: 71)
+let wire!(row: 2, column: 63) = wire!(row: 2, column: 59) * virtual_wire!(index: 57, value: 57u64);
 
-(wire!(row: 2, column: 71) * virtual_wire!(index: 60, value: 60u64)) -> wire!(row: 2, column: 75)
+let wire!(row: 2, column: 67) = wire!(row: 2, column: 63) * virtual_wire!(index: 58, value: 58u64);
 
-(wire!(row: 2, column: 75) * virtual_wire!(index: 61, value: 61u64)) -> wire!(row: 2, column: 79)
+let wire!(row: 2, column: 71) = wire!(row: 2, column: 67) * virtual_wire!(index: 59, value: 59u64);
 
-(wire!(row: 2, column: 79) * virtual_wire!(index: 62, value: 62u64)) -> wire!(row: 3, column: 3)
+let wire!(row: 2, column: 75) = wire!(row: 2, column: 71) * virtual_wire!(index: 60, value: 60u64);
 
-(wire!(row: 3, column: 3) * virtual_wire!(index: 63, value: 63u64)) -> wire!(row: 3, column: 7)
+let wire!(row: 2, column: 79) = wire!(row: 2, column: 75) * virtual_wire!(index: 61, value: 61u64);
 
-(wire!(row: 3, column: 7) * virtual_wire!(index: 64, value: 64u64)) -> wire!(row: 3, column: 11)
+let wire!(row: 3, column: 3) = wire!(row: 2, column: 79) * virtual_wire!(index: 62, value: 62u64);
 
-(wire!(row: 3, column: 11) * virtual_wire!(index: 65, value: 65u64)) -> wire!(row: 3, column: 15)
+let wire!(row: 3, column: 7) = wire!(row: 3, column: 3) * virtual_wire!(index: 63, value: 63u64);
 
-(wire!(row: 3, column: 15) * virtual_wire!(index: 66, value: 66u64)) -> wire!(row: 3, column: 19)
+let wire!(row: 3, column: 11) = wire!(row: 3, column: 7) * virtual_wire!(index: 64, value: 64u64);
 
-(wire!(row: 3, column: 19) * virtual_wire!(index: 67, value: 67u64)) -> wire!(row: 3, column: 23)
+let wire!(row: 3, column: 15) = wire!(row: 3, column: 11) * virtual_wire!(index: 65, value: 65u64);
 
-(wire!(row: 3, column: 23) * virtual_wire!(index: 68, value: 68u64)) -> wire!(row: 3, column: 27)
+let wire!(row: 3, column: 19) = wire!(row: 3, column: 15) * virtual_wire!(index: 66, value: 66u64);
 
-(wire!(row: 3, column: 27) * virtual_wire!(index: 69, value: 69u64)) -> wire!(row: 3, column: 31)
+let wire!(row: 3, column: 23) = wire!(row: 3, column: 19) * virtual_wire!(index: 67, value: 67u64);
 
-(wire!(row: 3, column: 31) * virtual_wire!(index: 70, value: 70u64)) -> wire!(row: 3, column: 35)
+let wire!(row: 3, column: 27) = wire!(row: 3, column: 23) * virtual_wire!(index: 68, value: 68u64);
 
-(wire!(row: 3, column: 35) * virtual_wire!(index: 71, value: 71u64)) -> wire!(row: 3, column: 39)
+let wire!(row: 3, column: 31) = wire!(row: 3, column: 27) * virtual_wire!(index: 69, value: 69u64);
 
-(wire!(row: 3, column: 39) * virtual_wire!(index: 72, value: 72u64)) -> wire!(row: 3, column: 43)
+let wire!(row: 3, column: 35) = wire!(row: 3, column: 31) * virtual_wire!(index: 70, value: 70u64);
 
-(wire!(row: 3, column: 43) * virtual_wire!(index: 73, value: 73u64)) -> wire!(row: 3, column: 47)
+let wire!(row: 3, column: 39) = wire!(row: 3, column: 35) * virtual_wire!(index: 71, value: 71u64);
 
-(wire!(row: 3, column: 47) * virtual_wire!(index: 74, value: 74u64)) -> wire!(row: 3, column: 51)
+let wire!(row: 3, column: 43) = wire!(row: 3, column: 39) * virtual_wire!(index: 72, value: 72u64);
 
-(wire!(row: 3, column: 51) * virtual_wire!(index: 75, value: 75u64)) -> wire!(row: 3, column: 55)
+let wire!(row: 3, column: 47) = wire!(row: 3, column: 43) * virtual_wire!(index: 73, value: 73u64);
 
-(wire!(row: 3, column: 55) * virtual_wire!(index: 76, value: 76u64)) -> wire!(row: 3, column: 59)
+let wire!(row: 3, column: 51) = wire!(row: 3, column: 47) * virtual_wire!(index: 74, value: 74u64);
 
-(wire!(row: 3, column: 59) * virtual_wire!(index: 77, value: 77u64)) -> wire!(row: 3, column: 63)
+let wire!(row: 3, column: 55) = wire!(row: 3, column: 51) * virtual_wire!(index: 75, value: 75u64);
 
-(wire!(row: 3, column: 63) * virtual_wire!(index: 78, value: 78u64)) -> wire!(row: 3, column: 67)
+let wire!(row: 3, column: 59) = wire!(row: 3, column: 55) * virtual_wire!(index: 76, value: 76u64);
 
-(wire!(row: 3, column: 67) * virtual_wire!(index: 79, value: 79u64)) -> wire!(row: 3, column: 71)
+let wire!(row: 3, column: 63) = wire!(row: 3, column: 59) * virtual_wire!(index: 77, value: 77u64);
 
-(wire!(row: 3, column: 71) * virtual_wire!(index: 80, value: 80u64)) -> wire!(row: 3, column: 75)
+let wire!(row: 3, column: 67) = wire!(row: 3, column: 63) * virtual_wire!(index: 78, value: 78u64);
 
-(wire!(row: 3, column: 75) * virtual_wire!(index: 81, value: 81u64)) -> wire!(row: 3, column: 79)
+let wire!(row: 3, column: 71) = wire!(row: 3, column: 67) * virtual_wire!(index: 79, value: 79u64);
 
-(wire!(row: 3, column: 79) * virtual_wire!(index: 82, value: 82u64)) -> wire!(row: 4, column: 3)
+let wire!(row: 3, column: 75) = wire!(row: 3, column: 71) * virtual_wire!(index: 80, value: 80u64);
 
-(wire!(row: 4, column: 3) * virtual_wire!(index: 83, value: 83u64)) -> wire!(row: 4, column: 7)
+let wire!(row: 3, column: 79) = wire!(row: 3, column: 75) * virtual_wire!(index: 81, value: 81u64);
 
-(wire!(row: 4, column: 7) * virtual_wire!(index: 84, value: 84u64)) -> wire!(row: 4, column: 11)
+let wire!(row: 4, column: 3) = wire!(row: 3, column: 79) * virtual_wire!(index: 82, value: 82u64);
 
-(wire!(row: 4, column: 11) * virtual_wire!(index: 85, value: 85u64)) -> wire!(row: 4, column: 15)
+let wire!(row: 4, column: 7) = wire!(row: 4, column: 3) * virtual_wire!(index: 83, value: 83u64);
 
-(wire!(row: 4, column: 15) * virtual_wire!(index: 86, value: 86u64)) -> wire!(row: 4, column: 19)
+let wire!(row: 4, column: 11) = wire!(row: 4, column: 7) * virtual_wire!(index: 84, value: 84u64);
 
-(wire!(row: 4, column: 19) * virtual_wire!(index: 87, value: 87u64)) -> wire!(row: 4, column: 23)
+let wire!(row: 4, column: 15) = wire!(row: 4, column: 11) * virtual_wire!(index: 85, value: 85u64);
 
-(wire!(row: 4, column: 23) * virtual_wire!(index: 88, value: 88u64)) -> wire!(row: 4, column: 27)
+let wire!(row: 4, column: 19) = wire!(row: 4, column: 15) * virtual_wire!(index: 86, value: 86u64);
 
-(wire!(row: 4, column: 27) * virtual_wire!(index: 89, value: 89u64)) -> wire!(row: 4, column: 31)
+let wire!(row: 4, column: 23) = wire!(row: 4, column: 19) * virtual_wire!(index: 87, value: 87u64);
 
-(wire!(row: 4, column: 31) * virtual_wire!(index: 90, value: 90u64)) -> wire!(row: 4, column: 35)
+let wire!(row: 4, column: 27) = wire!(row: 4, column: 23) * virtual_wire!(index: 88, value: 88u64);
 
-(wire!(row: 4, column: 35) * virtual_wire!(index: 91, value: 91u64)) -> wire!(row: 4, column: 39)
+let wire!(row: 4, column: 31) = wire!(row: 4, column: 27) * virtual_wire!(index: 89, value: 89u64);
 
-(wire!(row: 4, column: 39) * virtual_wire!(index: 92, value: 92u64)) -> wire!(row: 4, column: 43)
+let wire!(row: 4, column: 35) = wire!(row: 4, column: 31) * virtual_wire!(index: 90, value: 90u64);
 
-(wire!(row: 4, column: 43) * virtual_wire!(index: 93, value: 93u64)) -> wire!(row: 4, column: 47)
+let wire!(row: 4, column: 39) = wire!(row: 4, column: 35) * virtual_wire!(index: 91, value: 91u64);
 
-(wire!(row: 4, column: 47) * virtual_wire!(index: 94, value: 94u64)) -> wire!(row: 4, column: 51)
+let wire!(row: 4, column: 43) = wire!(row: 4, column: 39) * virtual_wire!(index: 92, value: 92u64);
 
-(wire!(row: 4, column: 51) * virtual_wire!(index: 95, value: 95u64)) -> wire!(row: 4, column: 55)
+let wire!(row: 4, column: 47) = wire!(row: 4, column: 43) * virtual_wire!(index: 93, value: 93u64);
 
-(wire!(row: 4, column: 55) * virtual_wire!(index: 96, value: 96u64)) -> wire!(row: 4, column: 59)
+let wire!(row: 4, column: 51) = wire!(row: 4, column: 47) * virtual_wire!(index: 94, value: 94u64);
 
-(wire!(row: 4, column: 59) * virtual_wire!(index: 97, value: 97u64)) -> wire!(row: 4, column: 63)
+let wire!(row: 4, column: 55) = wire!(row: 4, column: 51) * virtual_wire!(index: 95, value: 95u64);
 
-(wire!(row: 4, column: 63) * virtual_wire!(index: 98, value: 98u64)) -> wire!(row: 4, column: 67)
+let wire!(row: 4, column: 59) = wire!(row: 4, column: 55) * virtual_wire!(index: 96, value: 96u64);
 
-(wire!(row: 4, column: 67) * virtual_wire!(index: 99, value: 99u64)) -> wire!(row: 4, column: 71)
+let wire!(row: 4, column: 63) = wire!(row: 4, column: 59) * virtual_wire!(index: 97, value: 97u64);
 
-(wire!(row: 4, column: 71) * virtual_wire!(index: 100, value: 100u64)) -> wire!(row: 4, column: 75)
+let wire!(row: 4, column: 67) = wire!(row: 4, column: 63) * virtual_wire!(index: 98, value: 98u64);
+
+let wire!(row: 4, column: 71) = wire!(row: 4, column: 67) * virtual_wire!(index: 99, value: 99u64);
+
+let public_input_2 = wire!(row: 4, column: 71) * virtual_wire!(index: 100, value: 100u64);

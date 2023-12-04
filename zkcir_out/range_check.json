@@ -2,16 +2,30 @@
   "config": {
     "num_wires": 135
   },
-  "expressions": [
+  "stmts": [
     {
-      "Verify": {
-        "BinaryOperator": {
-          "lhs": {
+      "Local": [
+        {
+          "String": "public_input_1"
+        },
+        {
+          "Ident": {
             "VirtualWire": {
               "index": 0,
               "value": {
                 "U64": 42
               }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Verify": {
+        "BinaryOperator": {
+          "lhs": {
+            "Ident": {
+              "String": "public_input_1"
             }
           },
           "binop": "LessThan",
@@ -27,12 +41,19 @@
                 "Value": {
                   "U64": 6
                 }
-              },
-              "result": null
+              }
             }
-          },
-          "result": null
+          }
         }
+      }
+    }
+  ],
+  "public_wire_inputs": [],
+  "public_virtual_wire_inputs": [
+    {
+      "index": 0,
+      "value": {
+        "U64": 42
       }
     }
   ]

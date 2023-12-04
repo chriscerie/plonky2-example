@@ -1,1 +1,3 @@
-verify!(virtual_wire!(index: 0, value: 42u64) < (2u64 ^ 6u64))
+let public_input_1 = virtual_wire!(index: 0, value: 42u64);
+
+verify!(public_input_1 < (2u64 ^ 6u64));

@@ -2,32 +2,62 @@
   "config": {
     "num_wires": 135
   },
-  "expressions": [
+  "stmts": [
     {
-      "BinaryOperator": {
-        "lhs": {
-          "VirtualWire": {
-            "index": 0,
-            "value": null
-          }
+      "Local": [
+        {
+          "String": "public_input_1"
         },
-        "binop": "Multiply",
-        "rhs": {
-          "VirtualWire": {
-            "index": 0,
-            "value": null
-          }
-        },
-        "result": {
-          "Wire": {
-            "row": 0,
-            "column": 3,
-            "value": {
-              "RandomU64": 2175182291543165123
+        {
+          "Ident": {
+            "Wire": {
+              "row": 0,
+              "column": 3,
+              "value": {
+                "U64": 7649440844352408486
+              }
             }
           }
         }
+      ]
+    },
+    {
+      "Local": [
+        {
+          "String": "public_input_1"
+        },
+        {
+          "BinaryOperator": {
+            "lhs": {
+              "Ident": {
+                "VirtualWire": {
+                  "index": 0,
+                  "value": null
+                }
+              }
+            },
+            "binop": "Multiply",
+            "rhs": {
+              "Ident": {
+                "VirtualWire": {
+                  "index": 0,
+                  "value": null
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "public_wire_inputs": [
+    {
+      "row": 0,
+      "column": 3,
+      "value": {
+        "U64": 7649440844352408486
       }
     }
-  ]
+  ],
+  "public_virtual_wire_inputs": []
 }

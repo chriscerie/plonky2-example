@@ -1,1 +1,3 @@
-(virtual_wire!(index: 0) * virtual_wire!(index: 0)) -> wire!(row: 0, column: 3, value: (random!() -> 2175182291543165123u64))
+let public_input_1 = wire!(row: 0, column: 3, value: 7649440844352408486u64);
+
+let public_input_1 = virtual_wire!(index: 0) * virtual_wire!(index: 0);
